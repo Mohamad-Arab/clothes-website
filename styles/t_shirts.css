@@ -1,0 +1,100 @@
+#container{
+    background: blue;
+    width:100%;
+}
+#page-layout{
+    background: yellow;
+    height:335vh;
+    width:95%;
+    margin-left: auto;
+    margin-right: auto;
+}
+header{
+    background: red;
+    height:100px;
+    width: 100%;
+    text-align: center;
+}
+header h1{
+    display: inline;
+    line-height:2.5;
+}
+.headline-one {
+    text-align: center;
+    background: rgb(146, 29, 255);
+    width:500px;
+    height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 3.5;
+}
+.headline-two{
+    background: rgb(255, 0, 0);
+    width:500px;
+    height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
+    top:790px;
+    left:440px;
+    text-align: center;
+    line-height: 2;
+}
+.headline-three{
+    background: blue;
+    width:500px;
+    height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
+    top:1470px;
+    left:440px;
+    text-align: center;
+    line-height: 2;
+}
+footer{
+    background: green;
+    height:100px;
+    width: 100%;
+    position: relative;
+    top:483px;
+}
+.section-one{
+    background: rgb(43, 17, 0);
+    width:30%;
+    height: 500px;
+    margin-right: 10px;
+    text-align: center;
+    margin-top: 30px;
+    margin-left: 30px;
+    margin-bottom: 150px
+}
+#image1{
+    width:350px;
+    height: 350px;
+}
+.btn{
+    position: relative;
+    top:390px;
+    right: 55px;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 8px;
+    background: red;
+    transition: background 0.3s,color 0.3s;
+}
+.btn:hover{
+    background: green;
+}
+.anchor{
+    color: black;
+    font-weight: bold;
+    font-family:serif;
+    transition: color 0.3s;
+    text-decoration: none;
+    transition: font-size o.3s;
+}
+.anchor:hover{
+    font-size: 15px;
+}

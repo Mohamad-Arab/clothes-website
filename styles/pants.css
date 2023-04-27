@@ -1,0 +1,47 @@
+#container1{
+    background: rgb(0, 102, 255);
+    width: 100%;
+    height: 400px;
+}
+#image1{
+    position: absolute;
+    right:80px;
+    height: 400px;
+}
+#container2{
+    background: green;
+}
+.image1{
+    height: 350px;
+    width: 300px;
+    padding-left: 65px;
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+#btn1{
+    position: relative;
+    top:15px;
+    right:200px;
+    background: red;
+    border-radius: 10px;
+    padding:3px;
+    transition: background 0.2s,font-size 0.2s;
+}
+#btn1:hover{
+    background: blue;
+    font-size: 15px;
+}
+#container2 a{
+    color: white;
+    text-decoration: none;
+}
+.price{
+    background: aqua;
+    width: 140px;
+    height: 40px;
+    position: relative;
+    bottom:70px;
+    left: 150px;
+    text-align: center;
+    line-height:2;
+}

@@ -1,0 +1,116 @@
+body{
+    background: red;
+    margin: 0;
+}
+#container{
+    background: green;
+    width:97%;
+    height: 400vh;
+    margin-left: auto;
+    margin-right: auto;
+}
+.box1-one{
+    background: purple;
+    width: 28%;
+    height: 90vh;
+    float: left;
+    margin-left: 50px;
+    margin-top: 170px;
+}
+.box1-two{
+    background: purple;
+    width: 28%;
+    height: 90vh;
+    float: left;
+    margin-left: 50px;
+    margin-top: 170px;
+}
+.box1-three{
+    background: purple;
+    width: 28%;
+    height: 90vh;
+    float: left;
+    margin-left: 50px;
+    margin-top: 170px;
+}
+.content1{
+    background:yellow;
+    width: 85%;
+    height: 82vh;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+}
+.image1{
+    width:270px;
+    height: 350px;
+    margin: 20px;
+}
+#big-content{
+    margin-bottom:-80px ;
+}
+.ballons{
+    background: blue;
+    border-radius: 50%;
+    width:300px;
+    height:200px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    top:20px;
+}
+.ballons h1{
+    color: white;
+    position: relative;
+    top:50px;
+    left:80px;
+}
+.two{
+    position: absolute;
+    top:250px;
+    left: 100px;
+}
+.four h1{
+    position: relative;
+    top:20px;
+    left:70px;
+}
+.four{
+    position: absolute;
+    top:250px;
+    right: 100px;
+}
+.price{
+    background: black;
+    width: 70%;
+    height: 60px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.price h2{
+    color:white;
+    display: inline;
+    margin-left: 50px;
+    line-height: 2;
+}
+button{
+    background: green;
+    position: relative;
+    top:50px;
+    left:60px;
+    padding: 8px;
+    border-radius:30px;
+    transition:background 0.3s;
+}
+a{
+    text-decoration: none;
+    color:white;
+}
+a:hover{
+    color: black;
+}
+button:hover{
+    background: red;
+    font-size: 14px;
+    font-weight: bold;
+}
